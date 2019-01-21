@@ -6,5 +6,5 @@ services:
   - docker
 
 script:
-  - docker run -it --rm -v "$PWD:/src" basedskid/ps2dev-sdk-ci ./scripts/deploy.sh
+  - docker run -it --rm -v "$PWD:/src" basedskid/ps2dev-sdk-ci chmod u+x scripts/deploy.sh && ./scripts/deploy.sh
 
