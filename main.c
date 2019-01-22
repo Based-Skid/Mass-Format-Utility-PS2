@@ -15,7 +15,7 @@ void menu_header(void)
 	scr_printf(appName);
 	scr_printf(appVer);
 	scr_printf(appAuthor);
-	//scr_printf(appNotice);
+	scr_printf(appNotice);
 }
 
 void menu_Text(void)
